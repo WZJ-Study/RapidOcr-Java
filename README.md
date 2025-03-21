@@ -34,7 +34,7 @@
 <!--  rapidocr这个必须要引入     -->
 <!--  可前往maven中央仓库https://central.sonatype.com/artifact/io.github.mymonstercat/rapidocr/versions，查看版本      -->
 <dependency>
-    <groupId>io.github.mymonstercat</groupId>
+    <groupId>cc.wangzijie</groupId>
     <artifactId>rapidocr</artifactId>
     <version>0.0.7</version>
 </dependency>
@@ -42,13 +42,13 @@
 <!--  一般只需要引入一个，CPU端建议使用onnx，移动端建议使用ncnn     -->
 <!--  可前往maven中央仓库https://central.sonatype.com/artifact/io.github.mymonstercat/rapidocr-onnx-platform/versions，查看版本      -->
 <dependency>
-    <groupId>io.github.mymonstercat</groupId>
+    <groupId>cc.wangzijie</groupId>
     <artifactId>rapidocr-onnx-platform</artifactId>
     <version>0.0.7</version>
 </dependency>
 
 <dependency>
-    <groupId>io.github.mymonstercat</groupId>
+    <groupId>cc.wangzijie</groupId>
     <artifactId>rapidocr-ncnn-platform</artifactId>
     <version>0.0.7</version>
 </dependency>
@@ -83,7 +83,7 @@ public class Main {
 </dependency>
 <!-- SpringBoot项目：去除依赖，防止冲突     -->
 <dependency>
-    <groupId>io.github.mymonstercat</groupId>
+    <groupId>cc.wangzijie</groupId>
     <artifactId>rapidocr</artifactId>
     <exclusions>
         <exclusion>

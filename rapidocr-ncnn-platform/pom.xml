@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>io.github.mymonstercat</groupId>
+        <groupId>cc.wangzijie</groupId>
         <artifactId>rapidocr-java</artifactId>
         <version>0.0.7</version>
     </parent>
@@ -31,18 +31,18 @@
             </activation>
             <dependencies>
                 <dependency>
-                    <groupId>io.github.mymonstercat</groupId>
+                    <groupId>cc.wangzijie</groupId>
                     <artifactId>rapidocr-ncnn-macosx-arm64</artifactId>
                 </dependency>
             </dependencies>
         </profile>
 
         <profile>
-            <id>macosx-x86_64</id>
+            <id>macosx-x8664</id>
             <activation>
                 <os>
                     <family>mac</family>
-                    <arch>x86_64</arch>
+                    <arch>x8664</arch>
                 </os>
                 <property>
                     <name>!linux-build</name>
@@ -50,14 +50,14 @@
             </activation>
             <dependencies>
                 <dependency>
-                    <groupId>io.github.mymonstercat</groupId>
-                    <artifactId>rapidocr-ncnn-macosx-x86_64</artifactId>
+                    <groupId>cc.wangzijie</groupId>
+                    <artifactId>rapidocr-ncnn-macosx-x8664</artifactId>
                 </dependency>
             </dependencies>
         </profile>
 
         <profile>
-            <id>windows-x86_64</id>
+            <id>windows-x8664</id>
             <activation>
                 <os>
                     <family>windows</family>
@@ -69,14 +69,14 @@
             </activation>
             <dependencies>
                 <dependency>
-                    <groupId>io.github.mymonstercat</groupId>
-                    <artifactId>rapidocr-ncnn-windows-x86_64</artifactId>
+                    <groupId>cc.wangzijie</groupId>
+                    <artifactId>rapidocr-ncnn-windows-x8664</artifactId>
                 </dependency>
             </dependencies>
         </profile>
 
         <profile>
-            <id>linux-x86_64</id>
+            <id>linux-x8664</id>
             <activation>
                 <os>
                     <family>unix</family>
@@ -85,8 +85,8 @@
             </activation>
             <dependencies>
                 <dependency>
-                    <groupId>io.github.mymonstercat</groupId>
-                    <artifactId>rapidocr-ncnn-linux-x86_64</artifactId>
+                    <groupId>cc.wangzijie</groupId>
+                    <artifactId>rapidocr-ncnn-linux-x8664</artifactId>
                 </dependency>
             </dependencies>
         </profile>

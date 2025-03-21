@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>io.github.mymonstercat</groupId>
+        <groupId>cc.wangzijie</groupId>
         <artifactId>rapidocr-java</artifactId>
         <version>0.0.7</version>
     </parent>
@@ -19,7 +19,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.github.mymonstercat</groupId>
+            <groupId>cc.wangzijie</groupId>
             <artifactId>rapidocr-common</artifactId>
         </dependency>
 
@@ -39,13 +39,13 @@
 
         <!--    测试相关   -->
         <dependency>
-            <groupId>io.github.mymonstercat</groupId>
+            <groupId>cc.wangzijie</groupId>
             <!--      这里更换为你自己的系统      -->
             <artifactId>rapidocr-onnx-macosx-arm64</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>io.github.mymonstercat</groupId>
+            <groupId>cc.wangzijie</groupId>
             <artifactId>rapidocr-onnx-models</artifactId>
             <scope>test</scope>
         </dependency>

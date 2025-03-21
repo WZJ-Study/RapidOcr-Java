@@ -32,7 +32,7 @@ public class LoadUtil {
             String loaderClassName = null;
             if (osName.contains("win")) {
                 if (osArch.contains("amd64")) {
-                    loaderClassName = props.getProperty(engine + ".win-x86_64");
+                    loaderClassName = props.getProperty(engine + ".win-x8664");
                 } else if (osArch.contains("x86")) {
                     loaderClassName = props.getProperty(engine + ".win-x86");
                 }
@@ -40,11 +40,11 @@ public class LoadUtil {
                 if (osArch.contains("arch64")) {
                     loaderClassName = props.getProperty(engine + ".mac-arm64");
                 } else {
-                    loaderClassName = props.getProperty(engine + ".mac-x86_64");
+                    loaderClassName = props.getProperty(engine + ".mac-x8664");
                 }
             } else if (osName.contains("linux")) {
                 if (osArch.contains("x86") || osArch.contains("amd64")) {
-                    loaderClassName = props.getProperty(engine + ".linux-x86_64");
+                    loaderClassName = props.getProperty(engine + ".linux-x8664");
                 }
                 else if (osArch.contains("arm") || osArch.contains("arch64")){
                     loaderClassName = props.getProperty(engine + ".linux-arm64");  //Note: only support onnx,  not support ncnn now

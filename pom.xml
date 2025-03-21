@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.mymonstercat</groupId>
+    <groupId>cc.wangzijie</groupId>
     <artifactId>rapidocr-java</artifactId>
     <version>0.0.7</version>
     <packaging>pom</packaging>
 
     <name>rapid-ocr</name>
-    <url>https://github.com/MyMonsterCat/RapidOcr-Java</url>
+    <url>https://github.com/WZJ-Study/RapidOcr-Java</url>
     <description>Java代码实现调用RapidOCR(基于PaddleOCR)，适配Mac、Win、Linux，支持最新PP-OCRv4</description>
     <licenses>
         <license>
@@ -19,8 +19,8 @@
         </license>
     </licenses>
     <scm>
-        <url>https://github.com/MyMonsterCat/RapidOcr-Java</url>
-        <connection>https://github.com/MyMonsterCat/RapidOcr-Java.git</connection>
+        <url>https://github.com/WZJ-Study/RapidOcr-Java</url>
+        <connection>https://github.com/WZJ-Study/RapidOcr-Java.git</connection>
     </scm>
     <developers>
         <developer>
@@ -48,18 +48,18 @@
         <module>rapidocr-onnx-models</module>
 
         <module>rapidocr-onnx-macosx-arm64</module>
-        <module>rapidocr-onnx-macosx-x86_64</module>
-        <module>rapidocr-onnx-linux-x86_64</module>
-        <module>rapidocr-onnx-windows-x86_64</module>
+        <module>rapidocr-onnx-macosx-x8664</module>
+        <module>rapidocr-onnx-linux-x8664</module>
+        <module>rapidocr-onnx-windows-x8664</module>
         <module>rapidocr-onnx-windows-x86</module>
 
         <module>rapidocr-ncnn-platform</module>
         <module>rapidocr-ncnn-models</module>
 
         <module>rapidocr-ncnn-macosx-arm64</module>
-        <module>rapidocr-ncnn-macosx-x86_64</module>
-        <module>rapidocr-ncnn-linux-x86_64</module>
-        <module>rapidocr-ncnn-windows-x86_64</module>
+        <module>rapidocr-ncnn-macosx-x8664</module>
+        <module>rapidocr-ncnn-linux-x8664</module>
+        <module>rapidocr-ncnn-windows-x8664</module>
         <module>rapidocr-onnx-linux-arm64</module>
 
     </modules>
@@ -80,74 +80,74 @@
         <dependencies>
             <!--      ONNX       -->
             <dependency>
-                <groupId>io.github.mymonstercat</groupId>
+                <groupId>cc.wangzijie</groupId>
                 <artifactId>rapidocr-onnx-models</artifactId>
                 <version>${model.version.122}</version>
             </dependency>
             <dependency>
-                <groupId>io.github.mymonstercat</groupId>
+                <groupId>cc.wangzijie</groupId>
                 <artifactId>rapidocr-onnx-macosx-arm64</artifactId>
                 <version>${model.version.122}</version>
             </dependency>
             <dependency>
-                <groupId>io.github.mymonstercat</groupId>
-                <artifactId>rapidocr-onnx-macosx-x86_64</artifactId>
+                <groupId>cc.wangzijie</groupId>
+                <artifactId>rapidocr-onnx-macosx-x8664</artifactId>
                 <version>${model.version.122}</version>
             </dependency>
             <dependency>
-                <groupId>io.github.mymonstercat</groupId>
-                <artifactId>rapidocr-onnx-linux-x86_64</artifactId>
+                <groupId>cc.wangzijie</groupId>
+                <artifactId>rapidocr-onnx-linux-x8664</artifactId>
                 <version>${model.version.122}</version>
             </dependency>
             <dependency>
-                <groupId>io.github.mymonstercat</groupId>
-                <artifactId>rapidocr-onnx-windows-x86_64</artifactId>
+                <groupId>cc.wangzijie</groupId>
+                <artifactId>rapidocr-onnx-windows-x8664</artifactId>
                 <version>${model.version.122}</version>
             </dependency>
             <dependency>
-                <groupId>io.github.mymonstercat</groupId>
+                <groupId>cc.wangzijie</groupId>
                 <artifactId>rapidocr-onnx-windows-x86</artifactId>
                 <version>${model.version.122}</version>
             </dependency>
             <dependency>
-                <groupId>io.github.mymonstercat</groupId>
+                <groupId>cc.wangzijie</groupId>
                 <artifactId>rapidocr-onnx-linux-arm64</artifactId>
                 <version>${model.version.122}</version>
             </dependency>
             <!--      NCNN       -->
             <dependency>
-                <groupId>io.github.mymonstercat</groupId>
+                <groupId>cc.wangzijie</groupId>
                 <artifactId>rapidocr-ncnn-models</artifactId>
                 <version>${model.version.112}</version>
             </dependency>
             <dependency>
-                <groupId>io.github.mymonstercat</groupId>
+                <groupId>cc.wangzijie</groupId>
                 <artifactId>rapidocr-ncnn-macosx-arm64</artifactId>
                 <version>${model.version.120}</version>
             </dependency>
             <dependency>
-                <groupId>io.github.mymonstercat</groupId>
-                <artifactId>rapidocr-ncnn-macosx-x86_64</artifactId>
+                <groupId>cc.wangzijie</groupId>
+                <artifactId>rapidocr-ncnn-macosx-x8664</artifactId>
                 <version>${model.version.112}</version>
             </dependency>
             <dependency>
-                <groupId>io.github.mymonstercat</groupId>
-                <artifactId>rapidocr-ncnn-linux-x86_64</artifactId>
+                <groupId>cc.wangzijie</groupId>
+                <artifactId>rapidocr-ncnn-linux-x8664</artifactId>
                 <version>${model.version.112}</version>
             </dependency>
             <dependency>
-                <groupId>io.github.mymonstercat</groupId>
-                <artifactId>rapidocr-ncnn-windows-x86_64</artifactId>
+                <groupId>cc.wangzijie</groupId>
+                <artifactId>rapidocr-ncnn-windows-x8664</artifactId>
                 <version>${model.version.112}</version>
             </dependency>
             <!--      Core       -->
             <dependency>
-                <groupId>io.github.mymonstercat</groupId>
+                <groupId>cc.wangzijie</groupId>
                 <artifactId>rapidocr</artifactId>
                 <version>${ocr.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.github.mymonstercat</groupId>
+                <groupId>cc.wangzijie</groupId>
                 <artifactId>rapidocr-common</artifactId>
                 <version>${ocr.common.version}</version>
             </dependency>
